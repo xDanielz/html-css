@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exp13: Formulários</title>
+    <style>
+        fieldset{
+            margin: auto;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Seus Detalhes</legend>
+            <label>Nome: <input name="name" type="text" size="30" style="margin-bottom: 1px;"/></label> 
+            <br />
+            <label>Email: <input name="email" type="email" size="30"/></label>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Sua opinião</legend>
+            <p>
+                <label for="ouviu">Como você ouviu falar de nós?</label>
+                <select name="ouviu" id="ouviu">
+                    <option value="Google">Google</option>
+                    <option value="Amigos">Amigos</option>
+                    <option value="RedesSociais">Redes Sociais</option>
+                </select>
+            </p>
+            <br />
+            <p>
+                <label for="visitagain">Você nôs visitaria novamente?</label>
+                <br />
+                <input type="radio" name="visitagain" id="sim" value="sim"/>
+                <label for="sim">Sim</label>
+                <input type="radio" name="visitagain" id="nao" value="não"/>
+                <label for="nao">Não</label>
+                <input type="radio" name="visitagain" id="talvez" value="talvez"/>
+                <label for="talvez">Talvez</label>
+            </p>
+            <br />
+            <label for="comentario">Comentarios:</label>
+            <br />
+            <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+            <br />
+            <p>
+                <input type="checkbox" name="emailup" id="signin">
+                <label for="signin">Inscreva-se para receber updates no e-mail</label>
+                <br />
+                <button style="border-radius: 10px;" type="submit">Enviar opinião</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

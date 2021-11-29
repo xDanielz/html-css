@@ -1,0 +1,108 @@
+:root{
+    --font-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --box-shadow-padrao: 0px 0px 0.8px 0px;
+}
+body{
+    background-color: white;
+    margin-top: 50px;
+    font: 14px/18px var(--font-padrao);
+}
+#instagram{
+    width: 350px;
+    height: 565.33px;
+    margin: auto;
+    text-align: center;
+}
+#login{
+    border: none;
+    border-radius: 1px;
+    box-shadow: var(--box-shadow-padrao);
+    padding-bottom: 20px;
+}
+h1 > img{
+    display: block;
+    margin: auto;
+}
+#user, #pswrd{
+    padding: 9px 0px 7px 8px;
+    width: 250px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    box-shadow: var(--box-shadow-padrao);
+    font-size: 12px;
+    line-height: 36px;
+    color: #8E8E8E; 
+}
+#pswrd{
+    margin-top: 5.5px;
+    margin-bottom: 5px;
+}
+input[type="submit"]{
+    width: 268px;
+    height: 30px;
+    margin: 8px 40px;
+    border: none;
+    color: white;
+    background-color: #B2DFFC;
+    font-size: 14px;
+}
+#ou{
+    margin: 10px 42px 18px;
+    font-size: 13px;
+    color: #8E8E8E;
+    width: 268px;
+    height: 14.67px;
+}
+#ou div{
+    float: left;
+}
+#oou{
+    margin: -6px 15px;
+}
+div.line{
+    border: 0.5px solid #DBDBDB;;
+    width: 106.52px;
+}
+div#alternativa{
+    clear: left;
+}
+div#alternativa a{
+    display: block;
+}
+#entrar_face{
+    font-weight: bold;
+    color: #385185;
+    margin-bottom: 20px;
+}
+#entrar_face::before{
+    content: url('../imagens/face.png');
+    margin: 10px;
+}
+#esqueceu_senha{
+    color: #00376B;
+    font-size: 12px;
+    margin: 12px 0px 0px 20px;
+}
+#cadastre_se{
+    margin-top: 15px;
+    border-radius: 1px;
+    box-shadow: var(--box-shadow-padrao);
+    width: 350px;
+    height: 63px;
+    position: relative;
+}
+#cadastre_se > p{ 
+    color: #262626;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+}
+#cadastre_se a{
+    font-weight: bold;
+    color: #0095F6;
+}
+a{
+    text-decoration: none;
+}

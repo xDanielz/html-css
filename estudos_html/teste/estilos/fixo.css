@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+main{
+    overflow: auto;
+    height: 100%;
+}
+nav, #feature, footer{
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px;
+}
+nav > a{
+    margin-right: 15px;
+}
+.column1, .column2, .column3{
+    background-color: #efefef;
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
