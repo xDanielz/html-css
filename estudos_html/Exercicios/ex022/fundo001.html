@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        body{
+            background-image: url("imagens-bg/pattern004.png");
+        }
+        div{
+            border-radius: 10px;
+            border: 1px solid black;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+        }
+        div#q1{
+            background-color: aqua;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+        div#q3{
+            background-image: url("imagens-bg/pattern003.png");
+        }
+    </style>
+</head>
+<body>
+    <div id="q1"></div>
+    <div id="q2"></div>
+    <div id="q3"></div>
+</body>
+</html>
