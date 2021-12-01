@@ -51,12 +51,12 @@ header a:hover, footer a:hover{
 }
 
 section{
-    text-align: center;
     font: 2.5em var(--fonte3);
     background-color: white;
 }
 
 section > p{
+    text-align: center;
     padding: 100px 0px;
 }
 
@@ -78,7 +78,9 @@ section#img2{
 }
 
 section.bgimage > p{
-    background-color: rgba(0, 0, 0, 0.267);
+    margin: auto;
+    width: 10em;
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 footer{
