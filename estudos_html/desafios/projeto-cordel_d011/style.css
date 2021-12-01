@@ -58,6 +58,7 @@ section{
 section > p{
     text-align: center;
     padding: 100px 0px;
+    line-height: 2em;
 }
 
 section.bgimage{
